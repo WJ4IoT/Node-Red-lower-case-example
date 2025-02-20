@@ -1,9 +1,19 @@
 {
-    "name" : "node-red-contrib-example-lower-case",
-    ...
-    "node-red" : {
-        "nodes": {
-            "lower-case": "lower-case.js"
-        }
+  "name" : "node-red-contrib-example-lower-case",
+  "version": "1.0.2",
+  "description": "A sample node for node-red",
+  "main": "lower-case.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "lower-case": "lower-case.js"
     }
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": "",
+  "license": ""
 }
